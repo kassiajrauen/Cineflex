@@ -20,7 +20,7 @@ function Films(){
     } else {
         return (
         <div className="films">
-            <h1>Selecione o filme</h1>
+            <h1>Selecione o  filme</h1>
             <div className="options-film">
             {films.map((film) => (
                 <Link to={`/filme/${film.id}`}>
